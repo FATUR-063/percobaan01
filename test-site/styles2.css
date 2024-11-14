@@ -1,0 +1,48 @@
+.container_row {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container_coloum {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container_rowwrap {
+  display: flex;
+  flex: 0 0 33,333%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.container_alignrow {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.grow-1{
+  flex-grow: 1;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.boxjs {
+  background-color: grey;
+  display: flex;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+}

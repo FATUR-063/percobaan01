@@ -1,0 +1,93 @@
+html {
+  background-color: rgb(63, 114, 253);
+  background: linear-gradient(to bottom, #107fda, #0eb83c);
+  font-family: 'Kanit', serif;
+  font-size: 10px;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #000000;
+    background: linear-gradient(to bottom, #348ed8, #14e54c);
+    padding: 0 20px 20px 20px;
+   
+  
+    /*background-image: url(images/_52850e35-c445-4865-8dc9-ba409aa1e4f5.jpeg);
+    background-size: cover;  /* Ensures the image covers the entire background */
+    /*background-position: center;  /* Centers the image */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+h2{
+  font-size: 40px;
+  color: #007bff;
+}
+
+ul {
+  list-style: none;   /* Removes bullet points */
+  padding: 0;         /* Removes default padding */
+}
+
+p{
+  background-color: #f2efef;
+  padding: 15px;
+  margin-bottom: 10px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+ul li{
+  background-color: #f2efef;
+  padding: 15px;
+  margin-bottom: 10px;
+  line-height: 2;
+  font-size: 18px;
+  border-left: 5px solid #007bff;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 0px 12px 12px 12px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex: 1;
+  padding: 0 20px 20px 20px;
+}
+
+@media (max-width: 768px) {
+  img {
+      width: 120px;
+      height: 120px;
+  }
+  h2 {
+      font-size: 1.8rem;
+  }
+}

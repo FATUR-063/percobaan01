@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="drawer lg:drawer-open">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content">
+          <!-- Page content here -->
+         
+          <div class="w-full h-full relative flex flex-col">
+            <div class="navbar">Navbar</div>
+
+            <div class="absolute top-16 w-1/2 bottom-0 overflow-y-scroll">
+                <table class="w-full table">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer Name</th>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>John Doe</td>
+                            <td>Laptop</td>
+                            <td>1</td>
+                            <td>$1000</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Jane Smith</td>
+                            <td>Smartphone</td>
+                            <td>2</td>
+                            <td>$500</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Bob Brown</td>
+                            <td>Headphones</td>
+                            <td>3</td>
+                            <td>$100</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>004</td>
+                            <td>Alice Green</td>
+                            <td>Tablet</td>
+                            <td>1</td>
+                            <td>$300</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>005</td>
+                            <td>Michael Johnson</td>
+                            <td>Smartwatch</td>
+                            <td>2</td>
+                            <td>$200</td>
+                            <td>$400</td>
+                        </tr>
+                        <tr>
+                            <td>006</td>
+                            <td>Emily Davis</td>
+                            <td>Keyboard</td>
+                            <td>4</td>
+                            <td>$50</td>
+                            <td>$200</td>
+                        </tr>
+                        <tr>
+                            <td>007</td>
+                            <td>Chris Wilson</td>
+                            <td>Mouse</td>
+                            <td>5</td>
+                            <td>$30</td>
+                            <td>$150</td>
+                        </tr>
+                        <tr>
+                            <td>008</td>
+                            <td>Sarah Lee</td>
+                            <td>Monitor</td>
+                            <td>2</td>
+                            <td>$150</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>009</td>
+                            <td>David Clark</td>
+                            <td>Printer</td>
+                            <td>1</td>
+                            <td>$120</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>010</td>
+                            <td>Anna Lewis</td>
+                            <td>Camera</td>
+                            <td>1</td>
+                            <td>$700</td>
+                            <td>$700</td>
+                        </tr>
+                        <tr>
+                            <td>011</td>
+                            <td>Tom Allen</td>
+                            <td>Router</td>
+                            <td>2</td>
+                            <td>$80</td>
+                            <td>$160</td>
+                        </tr>
+                        <tr>
+                            <td>012</td>
+                            <td>Helen Carter</td>
+                            <td>SSD</td>
+                            <td>3</td>
+                            <td>$60</td>
+                            <td>$180</td>
+                        </tr>
+                        <tr>
+                            <td>013</td>
+                            <td>Steven Miller</td>
+                            <td>Hard Drive</td>
+                            <td>2</td>
+                            <td>$90</td>
+                            <td>$180</td>
+                        </tr>
+                        <tr>
+                            <td>014</td>
+                            <td>Nancy Parker</td>
+                            <td>USB Flash Drive</td>
+                            <td>10</td>
+                            <td>$10</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>015</td>
+                            <td>Kevin Turner</td>
+                            <td>Speaker</td>
+                            <td>1</td>
+                            <td>$120</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>016</td>
+                            <td>Laura Phillips</td>
+                            <td>Webcam</td>
+                            <td>2</td>
+                            <td>$70</td>
+                            <td>$140</td>
+                        </tr>
+                        <tr>
+                            <td>017</td>
+                            <td>Peter Scott</td>
+                            <td>Microphone</td>
+                            <td>3</td>
+                            <td>$40</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>018</td>
+                            <td>Jessica Evans</td>
+                            <td>Projector</td>
+                            <td>1</td>
+                            <td>$400</td>
+                            <td>$400</td>
+                        </tr>
+                        <tr>
+                            <td>019</td>
+                            <td>Robert King</td>
+                            <td>Charger</td>
+                            <td>5</td>
+                            <td>$25</td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td>020</td>
+                            <td>Linda Wright</td>
+                            <td>Power Bank</td>
+                            <td>2</td>
+                            <td>$50</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>John Doe</td>
+                            <td>Laptop</td>
+                            <td>1</td>
+                            <td>$1000</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Jane Smith</td>
+                            <td>Smartphone</td>
+                            <td>2</td>
+                            <td>$500</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Bob Brown</td>
+                            <td>Headphones</td>
+                            <td>3</td>
+                            <td>$100</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>004</td>
+                            <td>Alice Green</td>
+                            <td>Tablet</td>
+                            <td>1</td>
+                            <td>$300</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>005</td>
+                            <td>Michael Johnson</td>
+                            <td>Smartwatch</td>
+                            <td>2</td>
+                            <td>$200</td>
+                            <td>$400</td>
+                        </tr>
+                        <tr>
+                            <td>006</td>
+                            <td>Emily Davis</td>
+                            <td>Keyboard</td>
+                            <td>4</td>
+                            <td>$50</td>
+                            <td>$200</td>
+                        </tr>
+                        <tr>
+                            <td>007</td>
+                            <td>Chris Wilson</td>
+                            <td>Mouse</td>
+                            <td>5</td>
+                            <td>$30</td>
+                            <td>$150</td>
+                        </tr>
+                        <tr>
+                            <td>008</td>
+                            <td>Sarah Lee</td>
+                            <td>Monitor</td>
+                            <td>2</td>
+                            <td>$150</td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>009</td>
+                            <td>David Clark</td>
+                            <td>Printer</td>
+                            <td>1</td>
+                            <td>$120</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>010</td>
+                            <td>Anna Lewis</td>
+                            <td>Camera</td>
+                            <td>1</td>
+                            <td>$700</td>
+                            <td>$700</td>
+                        </tr>
+                        <tr>
+                            <td>011</td>
+                            <td>Tom Allen</td>
+                            <td>Router</td>
+                            <td>2</td>
+                            <td>$80</td>
+                            <td>$160</td>
+                        </tr>
+                        <tr>
+                            <td>012</td>
+                            <td>Helen Carter</td>
+                            <td>SSD</td>
+                            <td>3</td>
+                            <td>$60</td>
+                            <td>$180</td>
+                        </tr>
+                        <tr>
+                            <td>013</td>
+                            <td>Steven Miller</td>
+                            <td>Hard Drive</td>
+                            <td>2</td>
+                            <td>$90</td>
+                            <td>$180</td>
+                        </tr>
+                        <tr>
+                            <td>014</td>
+                            <td>Nancy Parker</td>
+                            <td>USB Flash Drive</td>
+                            <td>10</td>
+                            <td>$10</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>015</td>
+                            <td>Kevin Turner</td>
+                            <td>Speaker</td>
+                            <td>1</td>
+                            <td>$120</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>016</td>
+                            <td>Laura Phillips</td>
+                            <td>Webcam</td>
+                            <td>2</td>
+                            <td>$70</td>
+                            <td>$140</td>
+                        </tr>
+                        <tr>
+                            <td>017</td>
+                            <td>Peter Scott</td>
+                            <td>Microphone</td>
+                            <td>3</td>
+                            <td>$40</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>018</td>
+                            <td>Jessica Evans</td>
+                            <td>Projector</td>
+                            <td>1</td>
+                            <td>$400</td>
+                            <td>$400</td>
+                        </tr>
+                        <tr>
+                            <td>019</td>
+                            <td>Robert King</td>
+                            <td>Charger</td>
+                            <td>5</td>
+                            <td>$25</td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td>020</td>
+                            <td>Linda Wright</td>
+                            <td>Power Bank</td>
+                            <td>2</td>
+                            <td>$50</td>
+                            <td>$100</td>
+                        </tr>
+                    </tbody>
+            
+           
+            </table>
+            </div>
+
+
+          </div>
+
+
+
+
+
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+          <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+            <!-- Sidebar content here -->
+            <li><a>Sidebar Item 1</a></li>
+            <li><a>Sidebar Item 2</a></li>
+          </ul>
+        </div>
+      </div>
+</body>
+</html>
